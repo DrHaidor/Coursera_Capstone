@@ -7,7 +7,7 @@ M5A,Downtown Toronto,"Regent Park, Harbourfront"
 M6A,North York,"Lawrence Manor, Lawrence Heights"
 M7A,Downtown Toronto,"Queen's Park, Ontario Provincial Government"
 M8A,Not assigned,
-M9A,Etobicoke,Islington Avenue
+M9A,Etobicoke,"Islington Avenue, Humber Valley Village"
 M1B,Scarborough,"Malvern, Rouge"
 M2B,Not assigned,
 M3B,North York,Don Mills
@@ -56,7 +56,7 @@ M9H,Not assigned,
 M1J,Scarborough,Scarborough Village
 M2J,North York,"Fairview, Henry Farm, Oriole"
 M3J,North York,"Northwood Park, York University"
-M4J,East York,East Toronto
+M4J,East York,"East Toronto, Broadview North (Old East York)"
 M5J,Downtown Toronto,"Harbourfront East, Union Station, Toronto Islands"
 M6J,West Toronto,"Little Portugal, Trinity"
 M7J,Not assigned,
@@ -90,7 +90,7 @@ M7M,Not assigned,
 M8M,Not assigned,
 M9M,North York,"Humberlea, Emery"
 M1N,Scarborough,"Birch Cliff, Cliffside West"
-M2N,North York,Willowdale
+M2N,North York,"Willowdale, Willowdale East"
 M3N,North York,Downsview
 M4N,Central Toronto,Lawrence Park
 M5N,Central Toronto,Roselawn
@@ -102,15 +102,15 @@ M1P,Scarborough,"Dorset Park, Wexford Heights, Scarborough Town Centre"
 M2P,North York,York Mills West
 M3P,Not assigned,
 M4P,Central Toronto,Davisville North
-M5P,Central Toronto,Forest Hill North & West
+M5P,Central Toronto,"Forest Hill North & West, Forest Hill Road Park"
 M6P,West Toronto,"High Park, The Junction South"
 M7P,Not assigned,
 M8P,Not assigned,
 M9P,Etobicoke,Westmount
 M1R,Scarborough,"Wexford, Maryvale"
-M2R,North York,Willowdale
+M2R,North York,"Willowdale, Willowdale West"
 M3R,Not assigned,
-M4R,Central Toronto,North Toronto West
+M4R,Central Toronto,"North Toronto West,  Lawrence Park"
 M5R,Central Toronto,"The Annex, North Midtown, Yorkville"
 M6R,West Toronto,"Parkdale, Roncesvalles"
 M7R,Mississauga,Canada Post Gateway Processing Centre
@@ -151,7 +151,7 @@ M5W,Downtown Toronto,Stn A PO Boxes
 M6W,Not assigned,
 M7W,Not assigned,
 M8W,Etobicoke,"Alderwood, Long Branch"
-M9W,Etobicoke,Northwest
+M9W,Etobicoke,"Northwest, West Humber - Clairville"
 M1X,Scarborough,Upper Rouge
 M2X,Not assigned,
 M3X,Not assigned,
@@ -167,7 +167,7 @@ M3Y,Not assigned,
 M4Y,Downtown Toronto,Church and Wellesley
 M5Y,Not assigned,
 M6Y,Not assigned,
-M7Y,East Toronto,Business reply mail Processing Centre
+M7Y,East Toronto,"Business reply mail Processing Centre, South Central Letter Processing Plant Toronto"
 M8Y,Etobicoke,"Old Mill South, King's Mill Park, Sunnylea, Humber Bay, Mimico NE, The Queensway East, Royal York South East, Kingsway Park South East"
 M9Y,Not assigned,
 M1Z,Not assigned,
