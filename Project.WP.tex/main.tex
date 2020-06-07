@@ -1,0 +1,175 @@
+\documentclass{cernatlasnote}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{placeins}
+%\setlength{\parskip}{0.5\baselineskip}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+\title{New real estate development and metro station closeness analysis}
+\author{Georgy Golovanov}
+\date{\today}
+\draftversion{0.1}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Modern cities constantly grow. 
+New properties are being built at any time and require the urban infrastructure to be consistent.
+This analysis is focused on the real estate properties currently being under construction
+%in Moscow city 
+by clustering them around current 
+%and future 
+metro stations to reveal perspective areas.
+Since the real estate properties development is growing faster than the city infrastructure
+the analysis can be useful for real estate marketing.
+\end{abstract}
+
+% Make the review table at the bottom of the title page
+\vfill
+%\makereviewtable
+\clearpage
+
+% Short documentes dont always need a Table of Content / Figures / Tables, so comment out what is not needed
+\begingroup
+\color{black}
+\tableofcontents
+%\listoffigures
+%\listoftables
+\endgroup
+\pagebreak
+
+
+\section{Introduction}
+\label{into}
+Modern cities constantly grow. 
+New properties are being built at any time and require the urban infrastructure to be consistent.
+This analysis is focused on the real estate properties currently being under construction
+%in Moscow city 
+by clustering them around current 
+%and future 
+metro stations to reveal perspective areas.
+Since the real estate properties development is growing faster than the city infrastructure
+the analysis can be useful for real estate marketing.
+
+Moscow being a modern permanently growing European city is chosen as a subject for the analysis.
+It has been growing especially fast since 2000s and now combines both real estate development 
+and urban infrastructure improvement.
+The pattern of the development includes construction activities in suburban areas
+as well as reconstruction of former factories and manufacture territories within the central city regions.
+
+Moscow is a 18 million city confined within approximately 15~km from its center and has a radial structure.
+Being in a list of the most highly populated cities in the World, Moscow also suffers from the
+transportation and traffic problems.
+As a consequence the fastest and most popular public transport is the underground train system (Moscow metro)
+with very extensive structure.
+Since it has a radial structure the metro station density is quite high in city center becoming thin for distant regions.
+
+The main purpose of the analysis is  a study of new real estate developments by clustering them around
+metro stations.
+The closeness of a metro station becomes crucial for distant and suburban neighborhoods that can be important
+for real estate marketing estimates.
+%Another particular interest is a prior finding of developing properties that can become a good value after commissioning
+%of currently projected metro stations.
+
+The analysis is based on datasets containing currently developing properties and metro station geopositions.
+The datasets are described more detailed in Sec.~\ref{data}. 
+%The clustering procedure is described in Sec.~\ref{method}.
+
+\section{Data acquisition}
+\label{data}
+
+In order to perform the study described above the appropriate datasets have to be used, cleaned and modified.
+The analysis is based on the following datasets:
+\begin{enumerate}
+\item Capital construction objects of Moscow;
+\item Moscow metro stations.
+\end{enumerate}
+
+%https://op.mos.ru/EHDWSREST/catalog/export/get?id=843935
+
+\small{\url{https://data.mos.ru/opendata/7703742961-obekty-kapitalnogo-stroitelstva/passport?
+versionNumber=1&releaseNumber=886}}
+\section{Methodology}
+\label{method}
+
+\section{Results}
+\label{results}
+
+\section{Discussion}
+\label{disc}
+
+
+\section{Conclusions}
+\label{concl}
+
+%\begin{figure}[ht]
+%\centering
+%\includegraphics[width=0.5\textwidth]{images/cernlogo.eps}
+%\caption{\label{fig:examplecernlogo} Example of how to include a figure. This works with all sorts of formats, eps, pdf, png.}
+%\end{figure}
+%
+%% this will prevent float objects like figures to be moved past this point in the document.
+%\FloatBarrier
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%\begin{enumerate}
+%\item Everyone loves an enumerated list.
+%\item If you prefer bulleted lists, see below.
+%\end{enumerate}
+%
+%Of course there are always use cases for list with enumerations, and lists with bullets only, which is why it is useful to have examples of both.
+%
+%\begin{itemize}
+%    \item Everyone loves a bulleted list.
+%    \item If you prefer an enumerated list, see above.
+%\end{itemize}
+%
+%\section{The first section after the introduction}
+%Since an example of a ToC is not much fun with only one section, lets make another one and throw in some subsections as well.
+%
+%
+%\subsection{The first sub-section}
+%How about structuring the document into more subsections.
+%
+%\subsection{The second sub-section}
+%Tables are just as easy as figures to construct and reference, for example this one here (see Table \ref{tab:exampletable}).
+%
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{ |c|c|c|p{0.1\textwidth}| } 
+%    \hline
+%    \rowcolor{lightgray} 
+%    col1 & col2 & col3 & col4\\
+%    \hline
+%    \multirow{3}{4em}{Multiple row} & cell2 & cell3 & cell4 \\ 
+%    \cline{3-4}
+%    & cell5 & \multicolumn{2}{c|}{cell6 and cell7} \\
+%    \cline{3-4}
+%    & cell8 & cell9 & cell10 \\ 
+%    \hline
+%    cell11 & cell12 & cell13 & cell14 \\ 
+%    \hline
+%    \multicolumn{4}{|c|}{ Multicolumn} \\
+%    \hline
+%\end{tabular}
+%\end{center}
+%\caption{A table is as happy about a caption as a fiugre.}
+%\label{tab:exampletable}
+%\end{table}
+%
+%\section{Conclusions}
+%If the document purpose calls for conclusions, this would be the place to put them.
+%
+%\bibliography{references}
+%\bibliographystyle{plain}
+
+\end{document}
